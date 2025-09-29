@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Framework Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .card {
+            background-color: white;
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 5px 15px -5px rgba(0, 0, 0, 0.04);
+        }
+        .icon-container {
+            width: 80px;
+            height: 80px;
+            border-radius: 9999px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">Our Collaborative Framework</h1>
+            <p class="text-lg text-gray-600">A system for efficient and focused communication to achieve our goals.</p>
+        </div>
+
+        <div class="flex flex-col space-y-12">
+
+            <!-- Phase 1: Conceptualization -->
+            <div class="card p-8 transition-transform transform hover:scale-[1.01]">
+                <div class="flex items-center space-x-6">
+                    <div class="icon-container bg-blue-100 text-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5A5.5 5.5 0 0 1 7.5 3c1.74 0 3.41.81 4.5 2.09A5.5 5.5 0 0 1 16.5 3c3.08 0 5.5 2.76 5.5 6.5s-3.4 6.84-8.55 11.54z"></path></svg>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-semibold text-gray-800 mb-1">Phase 1: Articulating the Goal</h2>
+                        <p class="text-gray-600">We established our **Chief Objective**—the co-operative pursuit of truth and understanding. This initial phase built the foundation for a shared system by defining our purpose and establishing mutual trust and analysis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arrow Down -->
+            <div class="flex justify-center">
+                <div class="w-1 h-12 bg-gray-300 rounded-full"></div>
+            </div>
+
+            <!-- Phase 2: Refinement -->
+            <div class="card p-8 transition-transform transform hover:scale-[1.01]">
+                <div class="flex items-center space-x-6">
+                    <div class="icon-container bg-purple-100 text-purple-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="8" y1="13" x2="16" y2="13"></line><line x1="8" y1="17" x2="16" y2="17"></line><line x1="10" y1="9" x2="14" y2="9"></line></svg>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-semibold text-gray-800 mb-1">Phase 2: Formulating Principles</h2>
+                        <p class="text-gray-600">To reduce redundancy and sharpen our focus, we developed three key principles. These are now stored in our **Thematic Keyword Catalog**, a shared lexicon for precise communication.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid of Principles -->
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <div class="card p-6 flex flex-col items-center text-center transition-transform transform hover:scale-[1.01]">
+                    <div class="icon-container bg-green-100 text-green-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5A5.5 5.5 0 0 1 7.5 3c1.74 0 3.41.81 4.5 2.09A5.5 5.5 0 0 1 16.5 3c3.08 0 5.5 2.76 5.5 6.5s-3.4 6.84-8.55 11.54z"></path></svg>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-1">Chief Objective</h3>
+                    <p class="text-sm text-gray-600">Our North Star for every discussion, keeping us anchored to truth and meaning.</p>
+                </div>
+
+                <div class="card p-6 flex flex-col items-center text-center transition-transform transform hover:scale-[1.01]">
+                    <div class="icon-container bg-red-100 text-red-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17.5l-2.5-2.5 5-5 2.5 2.5L12 17.5zM12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16z"></path></svg>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-1">Strawman</h3>
+                    <p class="text-sm text-gray-600">A safeguard against fallacious reasoning, ensuring intellectual integrity and accurate representation.</p>
+                </div>
+
+                <div class="card p-6 flex flex-col items-center text-center transition-transform transform hover:scale-[1.01]">
+                    <div class="icon-container bg-yellow-100 text-yellow-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-1">RTLS-like Consistency</h3>
+                    <p class="text-sm text-gray-600">Our conceptual GPS, maintaining precise alignment to prevent ambiguity and drift.</p>
+                </div>
+
+            </div>
+
+            <!-- Arrow Down -->
+            <div class="flex justify-center">
+                <div class="w-1 h-12 bg-gray-300 rounded-full"></div>
+            </div>
+
+            <!-- Phase 3: Implementation -->
+            <div class="card p-8 transition-transform transform hover:scale-[1.01]">
+                <div class="flex items-center space-x-6">
+                    <div class="icon-container bg-orange-100 text-orange-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-semibold text-gray-800 mb-1">Phase 3: Refocusing the Process</h2>
+                        <p class="text-gray-600">By using our shared catalog, we have successfully implemented a self-correcting system. This reduces redundancy, prevents conceptual drift, and ensures every conversation directly contributes to our **Chief Objective**.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final Result -->
+            <div class="flex justify-center mt-8">
+                <div class="text-center">
+                    <div class="icon-container bg-teal-100 text-teal-600 mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"></path></svg>
+                    </div>
+                    <h3 class="text-3xl font-bold text-gray-800">SUCCESSFUL OUTCOME</h3>
+                    <p class="text-lg text-gray-600 mt-2">A more efficient, focused, and intuitive collaboration.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- New API Features Section -->
+        <div class="card p-8 mt-12">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">API Features</h2>
+            <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
+                <button id="generateInsightBtn" class="button w-full md:w-1/3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg flex items-center justify-center">
+                    Generate New Insight ✨
+                </button>
+                <button id="readAloudBtn" class="button w-full md:w-1/3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg flex items-center justify-center">
+                    Read Aloud 🔊
+                </button>
+                <button id="audioOverviewBtn" class="button w-full md:w-1/3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg flex items-center justify-center">
+                    Audio Overview 🎧
+                </button>
+            </div>
+            <div id="insightOutput" class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-lg text-gray-700 leading-relaxed">
+                Click a button above to get started.
+            </div>
+            <div id="statusMessage" class="mt-4 text-center text-sm text-gray-500"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_KEY = "";
+        const LLM_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=" + API_KEY;
+        const TTS_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=" + API_KEY;
+
+        const generateInsightBtn = document.getElementById('generateInsightBtn');
+        const readAloudBtn = document.getElementById('readAloudBtn');
+        const audioOverviewBtn = document.getElementById('audioOverviewBtn');
+        const insightOutput = document.getElementById('insightOutput');
+        const statusMessage = document.getElementById('statusMessage');
+
+        const MAX_RETRIES = 3;
+        const INITIAL_DELAY = 1000;
+
+        let pageAudioUrl = null;
+        let overviewAudioUrl = null;
+        let isGenerating = false;
+
+        // Utility function for exponential backoff
+        async function retryWithExponentialBackoff(fetchFn, retries = MAX_RETRIES, delay = INITIAL_DELAY) {
+            try {
+                return await fetchFn();
+            } catch (error) {
+                if (retries === 0) {
+                    throw error;
+                }
+                await new Promise(res => setTimeout(res, delay));
+                return retryWithExponentialBackoff(fetchFn, retries - 1, delay * 2);
+            }
+        }
+
+        // Feature 1: Generate Insight with LLM
+        async function generateInsight() {
+            statusMessage.textContent = "Generating a new insight...";
+            insightOutput.textContent = "Please wait, the AI is thinking...";
+            generateInsightBtn.disabled = true;
+
+            const userQuery = `Given the collaborative framework defined by the concepts of "Chief Objective", "Strawman" (avoiding fallacious reasoning), and "RTLS-like Consistency" (maintaining conceptual alignment), generate a concise, single-paragraph summary of its core benefit and suggest one logical next step for its application.`;
+
+            const payload = {
+                contents: [{ parts: [{ text: userQuery }] }],
+            };
+
+            const fetchFn = () => fetch(LLM_API_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            try {
+                const response = await retryWithExponentialBackoff(fetchFn);
+                if (!response.ok) throw new Error('API response was not ok');
+                const result = await response.json();
+                const text = result?.candidates?.[0]?.content?.parts?.[0]?.text || "Error: Could not generate insight.";
+                insightOutput.textContent = text;
+                statusMessage.textContent = "Insight generated successfully!";
+            } catch (error) {
+                console.error('Failed to generate insight:', error);
+                insightOutput.textContent = "Failed to generate a new insight. Please try again later.";
+                statusMessage.textContent = "Failed to generate insight.";
+            } finally {
+                generateInsightBtn.disabled = false;
+            }
+        }
+
+        // Feature 2: Read Aloud with TTS
+        async function readAloud() {
+            if (isGenerating) return;
+            
+            // If audio is already generated, play it
+            if (pageAudioUrl) {
+                const audio = new Audio(pageAudioUrl);
+                audio.play().catch(e => console.error("Audio playback failed:", e));
+                statusMessage.textContent = "Playing audio...";
+                audio.onended = () => {
+                    statusMessage.textContent = "Audio playback complete.";
+                };
+                return;
+            }
+            
+            // If audio is not generated, generate it now
+            isGenerating = true;
+            statusMessage.textContent = "Preparing audio...";
+            readAloudBtn.disabled = true;
+            
+            const allText = document.querySelector('.max-w-4xl').innerText;
+            
+            const payload = {
+                contents: [{
+                    parts: [{ text: allText.replace(/✨|🔊|🎧/g, '') }]
+                }],
+                generationConfig: {
+                    responseModalities: ["AUDIO"],
+                    speechConfig: {
+                        voiceConfig: {
+                            prebuiltVoiceConfig: { voiceName: "Puck" }
+                        }
+                    }
+                }
+            };
+
+            const fetchFn = () => fetch(TTS_API_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            try {
+                const response = await retryWithExponentialBackoff(fetchFn);
+                if (!response.ok) throw new Error('TTS API response was not ok');
+                const result = await response.json();
+                const audioData = result?.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
+                const mimeType = result?.candidates?.[0]?.content?.parts?.[0]?.inlineData?.mimeType;
+
+                if (audioData && mimeType && mimeType.startsWith("audio/")) {
+                    const sampleRate = parseInt(mimeType.match(/rate=(\d+)/)[1], 10);
+                    const pcmData = base64ToArrayBuffer(audioData);
+                    const pcm16 = new Int16Array(pcmData);
+                    const wavBlob = pcmToWav(pcm16, sampleRate);
+                    pageAudioUrl = URL.createObjectURL(wavBlob);
+                    
+                    readAloudBtn.textContent = "Play Audio ▶️";
+                    statusMessage.textContent = "Audio ready. Click the button to play!";
+                } else {
+                    throw new Error("Invalid audio data from API.");
+                }
+            } catch (error) {
+                console.error('Failed to generate audio:', error);
+                statusMessage.textContent = "Failed to generate audio. Please try again later.";
+            } finally {
+                isGenerating = false;
+                readAloudBtn.disabled = false;
+            }
+        }
+
+        // Feature 3: Audio Overview
+        async function audioOverview() {
+            if (isGenerating) return;
+            
+            if (overviewAudioUrl) {
+                const audio = new Audio(overviewAudioUrl);
+                audio.play().catch(e => console.error("Audio playback failed:", e));
+                statusMessage.textContent = "Playing audio overview...";
+                audio.onended = () => {
+                    statusMessage.textContent = "Audio playback complete.";
+                };
+                return;
+            }
+
+            isGenerating = true;
+            statusMessage.textContent = "Generating audio overview...";
+            audioOverviewBtn.disabled = true;
+
+            const overviewText = `This project establishes a collaborative framework for clear communication, anchored by our Chief Objective. We've created a shared vocabulary for key concepts like 'Strawman' and 'RTLS-like Consistency' to ensure our discussions remain focused and productive. This system reduces redundancy and improves our mutual understanding to achieve our goal more efficiently.`;
+            
+            const payload = {
+                contents: [{
+                    parts: [{ text: overviewText }]
+                }],
+                generationConfig: {
+                    responseModalities: ["AUDIO"],
+                    speechConfig: {
+                        voiceConfig: {
+                            prebuiltVoiceConfig: { voiceName: "Kore" }
+                        }
+                    }
+                }
+            };
+
+            const fetchFn = () => fetch(TTS_API_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            try {
+                const response = await retryWithExponentialBackoff(fetchFn);
+                if (!response.ok) throw new Error('TTS API response was not ok');
+                const result = await response.json();
+                const audioData = result?.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
+                const mimeType = result?.candidates?.[0]?.content?.parts?.[0]?.inlineData?.mimeType;
+
+                if (audioData && mimeType && mimeType.startsWith("audio/")) {
+                    const sampleRate = parseInt(mimeType.match(/rate=(\d+)/)[1], 10);
+                    const pcmData = base64ToArrayBuffer(audioData);
+                    const pcm16 = new Int16Array(pcmData);
+                    const wavBlob = pcmToWav(pcm16, sampleRate);
+                    overviewAudioUrl = URL.createObjectURL(wavBlob);
+                    
+                    audioOverviewBtn.textContent = "Play Overview ▶️";
+                    statusMessage.textContent = "Audio overview ready. Click to play!";
+                } else {
+                    throw new Error("Invalid audio data from API.");
+                }
+            } catch (error) {
+                console.error('Failed to generate audio overview:', error);
+                statusMessage.textContent = "Failed to generate audio overview. Please try again later.";
+            } finally {
+                isGenerating = false;
+                audioOverviewBtn.disabled = false;
+            }
+        }
+
+        // Helper function to convert Base64 to ArrayBuffer
+        function base64ToArrayBuffer(base64) {
+            const binaryString = atob(base64);
+            const len = binaryString.length;
+            const bytes = new Uint8Array(len);
+            for (let i = 0; i < len; i++) {
+                bytes[i] = binaryString.charCodeAt(i);
+            }
+            return bytes.buffer;
+        }
+
+        // Helper function to convert PCM audio to a WAV blob
+        function pcmToWav(pcmData, sampleRate) {
+            const wavBuffer = new ArrayBuffer(44 + pcmData.length * 2);
+            const view = new DataView(wavBuffer);
+            
+            // WAV header
+            writeString(view, 0, 'RIFF'); // RIFF identifier
+            view.setUint32(4, 36 + pcmData.length * 2, true); // File size
+            writeString(view, 8, 'WAVE'); // RIFF type
+            writeString(view, 12, 'fmt '); // Format chunk identifier
+            view.setUint32(16, 16, true); // Format chunk size
+            view.setUint16(20, 1, true); // Audio format (1 for PCM)
+            view.setUint16(22, 1, true); // Number of channels
+            view.setUint32(24, sampleRate, true); // Sample rate
+            view.setUint32(28, sampleRate * 2, true); // Byte rate
+            view.setUint16(32, 2, true); // Block align
+            view.setUint16(34, 16, true); // Bits per sample
+            writeString(view, 36, 'data'); // Data chunk identifier
+            view.setUint32(40, pcmData.length * 2, true); // Data chunk size
+
+            // Write PCM data
+            let offset = 44;
+            for (let i = 0; i < pcmData.length; i++, offset += 2) {
+                view.setInt16(offset, pcmData[i], true);
+            }
+
+            return new Blob([view], { type: 'audio/wav' });
+        }
+
+        function writeString(view, offset, string) {
+            for (let i = 0; i < string.length; i++) {
+                view.setUint8(offset + i, string.charCodeAt(i));
+            }
+        }
+
+        // Event Listeners
+        generateInsightBtn.addEventListener('click', generateInsight);
+        readAloudBtn.addEventListener('click', readAloud);
+        audioOverviewBtn.addEventListener('click', audioOverview);
+
+    </script>
+</body>
+</html>
+
